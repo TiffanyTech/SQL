@@ -1,0 +1,20 @@
+CREATE TABLE shirts (id INTEGER PRIMARY KEY, name TEXT, price INTEGER, color TEXT, stock INTEGER);
+INSERT INTO shirts VALUES(1, "Blue Dream", 20, "Blue", 100);
+INSERT INTO shirts VALUES(2, "Thunder", 5, "Black", 500);
+INSERT INTO shirts VALUES(3, "Haze", 7, "Red" , 250);
+INSERT INTO shirts VALUES(4, "Blackout", 80, "Gray", 200);
+INSERT INTO shirts VALUES(5, "Coca", 100, "White", 800);
+INSERT INTO shirts VALUES(6, "Your_Mom", 1, "White", 1);
+INSERT INTO shirts VALUES(7, "JOEY", 25, "White", 1);
+INSERT INTO shirts VALUES(8,"hi", 1, "Blue", 1);
+INSERT INTO shirts VALUES(9, "Your_Mo", 7, "Black", 20);
+INSERT INTO shirts VALUES(10, "You", 42, "Red", 30);
+INSERT INTO shirts VALUES(11, "Yo", 35, "Blue", 89);
+INSERT INTO shirts VALUES(12, "Tiffany", 12,"White", 45);
+INSERT INTO shirts VALUES(13, "CV", 5, "Red", 1);
+INSERT INTO shirts VALUES(14, "LO", 5, "White", 90);
+INSERT INTO shirts VALUES(15, "Dream", 10, "White", 100);
+
+SELECT * FROM shirts WHERE price ORDER BY price;
+
+SELECT SUM(stock) FROM shirts 
