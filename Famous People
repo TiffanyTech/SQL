@@ -1,0 +1,15 @@
+CREATE TABLE famous_people (id INTEGER PRIMARY KEY, name TEXT, profession INTEGER);
+INSERT INTO famous_people VALUES (1, "Elvis Presley", "singer");
+INSERT INTO famous_people VALUES (2, "Sarah J Maas", "author");
+INSERT INTO famous_people VALUES (3, "Brad Pitt", "actor");
+INSERT INTO famous_people VALUES (4, "Superman", "fictional character");
+
+CREATE TABLE authors (id INTEGER PRIMARY KEY, name TEXT, book_total INTEGER);
+INSERT INTO authors VALUES (1, "Sarah J Maas", 10);
+INSERT INTO authors VALUES (2, "Nicholas Sparks", 30);
+INSERT INTO authors VALUES (3, "J.K. Rowling", 12);
+
+CREATE TABLE actors (id INTEGER PRIMARY KEY, name TEXT, movie_total INTEGER);
+INSERT INTO actors VALUES (1, "Brad Pitt", 50);
+INSERT INTO actors VALUES (2, "Tom Holland", 15);
+INSERT INTO actors VALUES (3, "Florence Pugh", 30);
